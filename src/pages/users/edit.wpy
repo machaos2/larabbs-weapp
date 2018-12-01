@@ -165,7 +165,7 @@
             filePath: avatar
           })
 
-          // 上传成功成功记录数据
+          // 上传成功成功记录数据2
           if (imageResponse.statusCode === 201) {
             // 小程序上传结果没有做 JSON.parse，需要手动处理
             let responseData = JSON.parse(imageResponse.data)
